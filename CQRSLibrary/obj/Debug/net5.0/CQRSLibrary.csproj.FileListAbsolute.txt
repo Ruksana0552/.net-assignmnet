@@ -1,0 +1,12 @@
+C:\Users\ruksana.khanum\Desktop\Assignment1\CQRSLibrary\bin\Debug\net5.0\CQRSLibrary.deps.json
+C:\Users\ruksana.khanum\Desktop\Assignment1\CQRSLibrary\bin\Debug\net5.0\CQRSLibrary.dll
+C:\Users\ruksana.khanum\Desktop\Assignment1\CQRSLibrary\bin\Debug\net5.0\ref\CQRSLibrary.dll
+C:\Users\ruksana.khanum\Desktop\Assignment1\CQRSLibrary\bin\Debug\net5.0\CQRSLibrary.pdb
+C:\Users\ruksana.khanum\Desktop\Assignment1\CQRSLibrary\obj\Debug\net5.0\CQRSLibrary.csproj.AssemblyReference.cache
+C:\Users\ruksana.khanum\Desktop\Assignment1\CQRSLibrary\obj\Debug\net5.0\CQRSLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruksana.khanum\Desktop\Assignment1\CQRSLibrary\obj\Debug\net5.0\CQRSLibrary.AssemblyInfoInputs.cache
+C:\Users\ruksana.khanum\Desktop\Assignment1\CQRSLibrary\obj\Debug\net5.0\CQRSLibrary.AssemblyInfo.cs
+C:\Users\ruksana.khanum\Desktop\Assignment1\CQRSLibrary\obj\Debug\net5.0\CQRSLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ruksana.khanum\Desktop\Assignment1\CQRSLibrary\obj\Debug\net5.0\CQRSLibrary.dll
+C:\Users\ruksana.khanum\Desktop\Assignment1\CQRSLibrary\obj\Debug\net5.0\ref\CQRSLibrary.dll
+C:\Users\ruksana.khanum\Desktop\Assignment1\CQRSLibrary\obj\Debug\net5.0\CQRSLibrary.pdb

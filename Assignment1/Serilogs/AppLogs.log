@@ -1,0 +1,1131 @@
+2022-03-03 13:43:11.634 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-03 13:43:11.660 +05:30 [INF] Hosting environment: Development
+2022-03-03 13:43:11.661 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-03 13:43:11.662 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-03 13:43:11.754 +05:30 [INF] Request finished in 95.026ms 200 text/html;charset=utf-8
+2022-03-03 13:43:11.891 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-03 13:43:11.988 +05:30 [INF] Request finished in 96.4094ms 200 application/json;charset=utf-8
+2022-03-03 13:43:42.912 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/create application/json 95
+2022-03-03 13:43:42.923 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.AddProduct (Assignment1)'
+2022-03-03 13:43:42.949 +05:30 [INF] Route matched with {action = "AddProduct", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProduct(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-03 13:43:42.966 +05:30 [INF] this is add method
+2022-03-03 13:43:42.970 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2022-03-03 13:43:42.995 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.AddProduct (Assignment1) in 22.8988ms
+2022-03-03 13:43:43.000 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.AddProduct (Assignment1)'
+2022-03-03 13:43:43.000 +05:30 [INF] Request finished in 90.5257ms 200 application/json; charset=utf-8
+2022-03-03 13:47:55.447 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-03 13:47:55.482 +05:30 [INF] Hosting environment: Development
+2022-03-03 13:47:55.484 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-03 13:47:55.484 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-03 13:47:55.567 +05:30 [INF] Request finished in 85.6305ms 200 text/html;charset=utf-8
+2022-03-03 13:47:55.700 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-03 13:47:55.799 +05:30 [INF] Request finished in 98.5866ms 200 application/json;charset=utf-8
+2022-03-03 13:48:07.219 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/create application/json 95
+2022-03-03 13:48:07.225 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.AddProduct (Assignment1)'
+2022-03-03 13:48:07.249 +05:30 [INF] Route matched with {action = "AddProduct", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProduct(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-03 13:48:07.267 +05:30 [INF] Product is getting added
+2022-03-03 13:48:07.269 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2022-03-03 13:48:07.277 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.AddProduct (Assignment1) in 22.3596ms
+2022-03-03 13:48:07.279 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.AddProduct (Assignment1)'
+2022-03-03 13:48:07.279 +05:30 [INF] Request finished in 60.2871ms 200 application/json; charset=utf-8
+2022-03-03 13:48:15.311 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/api/Product/Read  
+2022-03-03 13:48:15.313 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-03 13:48:15.317 +05:30 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Collections.Generic.List`1[Assignment1.Models.Product] GetProduct() on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-03 13:48:15.322 +05:30 [INF] retreiving all products
+2022-03-03 13:48:15.323 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Assignment1.Models.Product, Assignment1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-03 13:48:15.326 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetProduct (Assignment1) in 8.694ms
+2022-03-03 13:48:15.326 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-03 13:48:15.326 +05:30 [INF] Request finished in 15.8112ms 200 application/json; charset=utf-8
+2022-03-03 14:05:05.940 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-03 14:05:05.966 +05:30 [INF] Hosting environment: Development
+2022-03-03 14:05:05.968 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-03 14:05:05.967 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-03 14:05:06.047 +05:30 [INF] Request finished in 82.9298ms 200 text/html;charset=utf-8
+2022-03-03 14:05:06.178 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-03 14:05:06.273 +05:30 [INF] Request finished in 91.1099ms 200 application/json;charset=utf-8
+2022-03-03 14:42:40.488 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-03 14:42:40.536 +05:30 [INF] Hosting environment: Development
+2022-03-03 14:42:40.540 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-03 14:42:40.539 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-03 14:42:40.737 +05:30 [INF] Request finished in 204.2315ms 200 text/html;charset=utf-8
+2022-03-03 14:42:41.025 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-03 14:42:41.202 +05:30 [INF] Request finished in 177.5481ms 200 application/json;charset=utf-8
+2022-03-03 14:42:48.336 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/create application/json 95
+2022-03-03 14:42:48.345 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.AddProduct (Assignment1)'
+2022-03-03 14:42:48.398 +05:30 [INF] Route matched with {action = "AddProduct", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProduct(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-03 14:42:55.822 +05:30 [INF] Product is getting added
+2022-03-03 14:43:06.061 +05:30 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2022-03-03 14:43:06.075 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.AddProduct (Assignment1) in 17666.6191ms
+2022-03-03 14:43:06.076 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.AddProduct (Assignment1)'
+2022-03-03 14:43:06.079 +05:30 [INF] Request finished in 17743.5476ms 200 
+2022-03-03 14:43:17.204 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/api/Product/Read  
+2022-03-03 14:43:17.211 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-03 14:43:17.225 +05:30 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Collections.Generic.List`1[Assignment1.Models.Product] GetProduct() on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-03 14:43:17.227 +05:30 [INF] retreiving all products
+2022-03-03 14:43:17.232 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Assignment1.Models.Product, Assignment1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-03 14:43:17.238 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetProduct (Assignment1) in 11.9931ms
+2022-03-03 14:43:17.238 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-03 14:43:17.238 +05:30 [INF] Request finished in 35.6014ms 200 application/json; charset=utf-8
+2022-03-03 14:43:55.936 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/create application/json 95
+2022-03-03 14:43:55.938 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.AddProduct (Assignment1)'
+2022-03-03 14:43:55.939 +05:30 [INF] Route matched with {action = "AddProduct", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProduct(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-03 14:43:59.599 +05:30 [INF] Product is getting added
+2022-03-03 14:44:16.296 +05:30 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2022-03-03 14:44:16.298 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.AddProduct (Assignment1) in 20358.3206ms
+2022-03-03 14:44:16.299 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.AddProduct (Assignment1)'
+2022-03-03 14:44:16.306 +05:30 [INF] Request finished in 20367.0425ms 200 
+2022-03-03 14:44:25.741 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/api/Product/Read  
+2022-03-03 14:44:25.742 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-03 14:44:25.743 +05:30 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Collections.Generic.List`1[Assignment1.Models.Product] GetProduct() on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-03 14:44:25.743 +05:30 [INF] retreiving all products
+2022-03-03 14:44:25.744 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Assignment1.Models.Product, Assignment1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-03 14:44:25.757 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetProduct (Assignment1) in 13.9179ms
+2022-03-03 14:44:25.758 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-03 14:44:25.759 +05:30 [INF] Request finished in 17.3541ms 200 application/json; charset=utf-8
+2022-03-03 14:49:45.015 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-03 14:49:45.041 +05:30 [INF] Hosting environment: Development
+2022-03-03 14:49:45.042 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-03 14:49:45.042 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-03 14:49:45.116 +05:30 [INF] Request finished in 77.3614ms 200 text/html;charset=utf-8
+2022-03-03 14:49:45.245 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-03 14:49:45.325 +05:30 [INF] Request finished in 77.6942ms 200 application/json;charset=utf-8
+2022-03-03 14:50:30.686 +05:30 [INF] Request starting HTTP/2.0 PUT https://localhost:44365/api/Product/update application/json 95
+2022-03-03 14:50:30.712 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.UpdateProduct (Assignment1)'
+2022-03-03 14:50:30.764 +05:30 [INF] Route matched with {action = "UpdateProduct", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateProduct(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-03 14:50:30.807 +05:30 [INF] updating product
+2022-03-03 14:50:30.819 +05:30 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2022-03-03 14:50:30.835 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.UpdateProduct (Assignment1) in 58.4243ms
+2022-03-03 14:50:30.836 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.UpdateProduct (Assignment1)'
+2022-03-03 14:50:30.838 +05:30 [INF] Request finished in 190.7934ms 200 
+2022-03-03 14:50:52.577 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/api/Product/find?id=1  
+2022-03-03 14:50:52.582 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetById (Assignment1)'
+2022-03-03 14:50:52.588 +05:30 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-03 14:50:52.597 +05:30 [INF] retreiving product by id
+2022-03-03 14:50:52.602 +05:30 [INF] Executing ObjectResult, writing value of type 'Assignment1.Models.Product'.
+2022-03-03 14:50:52.614 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetById (Assignment1) in 24.1627ms
+2022-03-03 14:50:52.618 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetById (Assignment1)'
+2022-03-03 14:50:52.619 +05:30 [INF] Request finished in 41.7597ms 200 application/json; charset=utf-8
+2022-03-03 14:51:25.127 +05:30 [INF] Request starting HTTP/2.0 DELETE https://localhost:44365/api/Product/delete?id=1  
+2022-03-03 14:51:25.128 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.DeleteProduct (Assignment1)'
+2022-03-03 14:51:25.135 +05:30 [INF] Route matched with {action = "DeleteProduct", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteProduct(Int32) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-03 14:51:25.139 +05:30 [INF] deleting product
+2022-03-03 14:51:25.141 +05:30 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2022-03-03 14:51:25.142 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.DeleteProduct (Assignment1) in 4.4668ms
+2022-03-03 14:51:25.142 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.DeleteProduct (Assignment1)'
+2022-03-03 14:51:25.144 +05:30 [INF] Request finished in 20.9515ms 200 
+2022-03-03 14:51:32.045 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-03 14:51:32.049 +05:30 [INF] Request finished in 4.1363ms 200 text/html;charset=utf-8
+2022-03-03 14:51:32.152 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-03 14:51:32.155 +05:30 [INF] Request finished in 3.5613ms 200 application/json;charset=utf-8
+2022-03-03 14:51:32.157 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/favicon-32x32.png  
+2022-03-03 14:51:32.179 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-03-03 14:51:32.179 +05:30 [INF] Request finished in 21.5518ms 200 image/png
+2022-03-03 14:51:39.304 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/api/Product/Read  
+2022-03-03 14:51:39.306 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-03 14:51:39.312 +05:30 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Collections.Generic.List`1[Assignment1.Models.Product] GetProduct() on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-03 14:51:39.314 +05:30 [INF] retreiving all products
+2022-03-03 14:51:39.317 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Assignment1.Models.Product, Assignment1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-03 14:51:39.320 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetProduct (Assignment1) in 6.473ms
+2022-03-03 14:51:39.320 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-03 14:51:39.320 +05:30 [INF] Request finished in 16.6451ms 200 application/json; charset=utf-8
+2022-03-03 14:52:55.418 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-03 14:52:55.438 +05:30 [INF] Hosting environment: Development
+2022-03-03 14:52:55.440 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-03 14:52:55.442 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-03 14:52:55.524 +05:30 [INF] Request finished in 84.9767ms 200 text/html;charset=utf-8
+2022-03-03 14:52:55.642 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-03 14:52:55.721 +05:30 [INF] Request finished in 79.1088ms 200 application/json;charset=utf-8
+2022-03-03 14:53:14.978 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/create application/json 95
+2022-03-03 14:53:14.987 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.AddProduct (Assignment1)'
+2022-03-03 14:53:15.046 +05:30 [INF] Route matched with {action = "AddProduct", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProduct(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-03 14:53:19.289 +05:30 [INF] Product is getting added
+2022-03-03 14:53:29.530 +05:30 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2022-03-03 14:53:29.538 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.AddProduct (Assignment1) in 14485.8062ms
+2022-03-03 14:53:29.539 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.AddProduct (Assignment1)'
+2022-03-03 14:53:29.540 +05:30 [INF] Request finished in 14563.1047ms 200 
+2022-03-03 14:53:40.357 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/api/Product/Read  
+2022-03-03 14:53:40.363 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-03 14:53:40.368 +05:30 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Collections.Generic.List`1[Assignment1.Models.Product] GetProduct() on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-03 14:53:40.371 +05:30 [INF] retreiving all products
+2022-03-03 14:53:40.380 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Assignment1.Models.Product, Assignment1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-03 14:53:40.389 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetProduct (Assignment1) in 20.2963ms
+2022-03-03 14:53:40.390 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-03 14:53:40.390 +05:30 [INF] Request finished in 33.5085ms 200 application/json; charset=utf-8
+2022-03-03 14:53:59.999 +05:30 [INF] Request starting HTTP/2.0 DELETE https://localhost:44365/api/Product/delete?id=6  
+2022-03-03 14:54:00.001 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.DeleteProduct (Assignment1)'
+2022-03-03 14:54:00.021 +05:30 [INF] Route matched with {action = "DeleteProduct", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteProduct(Int32) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-03 14:54:00.027 +05:30 [INF] deleting product
+2022-03-03 14:54:00.028 +05:30 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2022-03-03 14:54:00.029 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.DeleteProduct (Assignment1) in 7.3519ms
+2022-03-03 14:54:00.029 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.DeleteProduct (Assignment1)'
+2022-03-03 14:54:00.031 +05:30 [INF] Request finished in 32.1246ms 200 
+2022-03-03 14:54:10.783 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/api/Product/find?id=6  
+2022-03-03 14:54:10.784 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetById (Assignment1)'
+2022-03-03 14:54:10.788 +05:30 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-03 14:54:10.790 +05:30 [INF] retreiving product by id
+2022-03-03 14:54:10.790 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2022-03-03 14:54:10.791 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetById (Assignment1) in 2.6038ms
+2022-03-03 14:54:10.791 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetById (Assignment1)'
+2022-03-03 14:54:10.792 +05:30 [INF] Request finished in 8.9452ms 400 text/plain; charset=utf-8
+2022-03-03 14:54:39.111 +05:30 [INF] Request starting HTTP/2.0 PUT https://localhost:44365/api/Product/update application/json 95
+2022-03-03 14:54:39.112 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.UpdateProduct (Assignment1)'
+2022-03-03 14:54:39.115 +05:30 [INF] Route matched with {action = "UpdateProduct", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateProduct(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-03 14:54:39.118 +05:30 [INF] updating product
+2022-03-03 14:54:39.119 +05:30 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2022-03-03 14:54:39.119 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.UpdateProduct (Assignment1) in 3.775ms
+2022-03-03 14:54:39.119 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.UpdateProduct (Assignment1)'
+2022-03-03 14:54:39.121 +05:30 [INF] Request finished in 13.0876ms 200 
+2022-03-03 14:54:56.161 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/api/Product/Read  
+2022-03-03 14:54:56.163 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-03 14:54:56.165 +05:30 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Collections.Generic.List`1[Assignment1.Models.Product] GetProduct() on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-03 14:54:56.166 +05:30 [INF] retreiving all products
+2022-03-03 14:54:56.167 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Assignment1.Models.Product, Assignment1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-03 14:54:56.169 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetProduct (Assignment1) in 3.346ms
+2022-03-03 14:54:56.169 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-03 14:54:56.169 +05:30 [INF] Request finished in 8.8556ms 200 application/json; charset=utf-8
+2022-03-03 15:04:13.857 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-03 15:04:13.882 +05:30 [INF] Hosting environment: Development
+2022-03-03 15:04:13.883 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-03 15:04:13.884 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-03 15:04:13.965 +05:30 [INF] Request finished in 83.7776ms 200 text/html;charset=utf-8
+2022-03-03 15:04:14.094 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-03 15:04:14.182 +05:30 [INF] Request finished in 85.6698ms 200 application/json;charset=utf-8
+2022-03-04 10:34:03.710 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 10:34:03.760 +05:30 [INF] Hosting environment: Development
+2022-03-04 10:34:03.764 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 10:34:04.008 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 10:34:04.547 +05:30 [INF] Request finished in 543.3855ms 200 text/html;charset=utf-8
+2022-03-04 10:34:05.411 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 10:34:05.651 +05:30 [INF] Request finished in 240.1297ms 200 application/json;charset=utf-8
+2022-03-04 10:55:40.123 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/api/Home  
+2022-03-04 10:55:40.134 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.Home.credentials (Assignment1)'
+2022-03-04 10:55:40.182 +05:30 [INF] Route matched with {action = "credentials", controller = "Home"}. Executing controller action with signature Assignment1.Models.AppSettings credentials(Assignment1.Models.AppSettings) on controller Assignment1.Controllers.Home (Assignment1).
+2022-03-04 10:55:40.212 +05:30 [INF] Executing ObjectResult, writing value of type 'Assignment1.Models.AppSettings'.
+2022-03-04 10:55:40.229 +05:30 [INF] Executed action Assignment1.Controllers.Home.credentials (Assignment1) in 36.9586ms
+2022-03-04 10:55:40.234 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.Home.credentials (Assignment1)'
+2022-03-04 10:55:40.234 +05:30 [INF] Request finished in 112.9401ms 200 application/json; charset=utf-8
+2022-03-04 15:38:42.073 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 15:38:42.089 +05:30 [INF] Hosting environment: Development
+2022-03-04 15:38:42.090 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 15:38:42.189 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 15:38:42.389 +05:30 [INF] Request finished in 202.8084ms 200 text/html;charset=utf-8
+2022-03-04 15:38:42.920 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 15:38:43.020 +05:30 [INF] Request finished in 100.1075ms 200 application/json;charset=utf-8
+2022-03-04 15:43:36.091 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 15:43:36.134 +05:30 [INF] Hosting environment: Development
+2022-03-04 15:43:36.137 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 15:43:36.140 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 15:43:36.348 +05:30 [INF] Request finished in 215.9931ms 200 text/html;charset=utf-8
+2022-03-04 15:43:36.535 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 15:43:36.710 +05:30 [INF] Request finished in 175.0721ms 200 application/json;charset=utf-8
+2022-03-04 15:47:57.071 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 15:47:57.135 +05:30 [INF] Hosting environment: Development
+2022-03-04 15:47:57.138 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 15:47:57.139 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 15:47:57.339 +05:30 [INF] Request finished in 211.1106ms 200 text/html;charset=utf-8
+2022-03-04 15:47:57.485 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 15:47:57.647 +05:30 [INF] Request finished in 161.6413ms 200 application/json;charset=utf-8
+2022-03-04 15:48:31.841 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 91
+2022-03-04 15:48:31.871 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 15:48:31.942 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 15:48:32.043 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.Add (Assignment1) in 79.9936ms
+2022-03-04 15:48:32.051 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 15:48:32.058 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Assignment1.services.IProductRepo' while attempting to activate 'Assignment1.Controllers.ProductController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-04 15:48:32.729 +05:30 [INF] Request finished in 892.2117ms 500 text/plain
+2022-03-04 15:49:40.101 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 15:49:40.155 +05:30 [INF] Hosting environment: Development
+2022-03-04 15:49:40.159 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 15:49:40.158 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 15:49:40.387 +05:30 [INF] Request finished in 238.0585ms 200 text/html;charset=utf-8
+2022-03-04 15:49:40.557 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 15:49:40.729 +05:30 [INF] Request finished in 166.2111ms 200 application/json;charset=utf-8
+2022-03-04 15:50:05.930 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 96
+2022-03-04 15:50:05.951 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 15:50:06.031 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 15:58:48.978 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 15:58:49.001 +05:30 [INF] Hosting environment: Development
+2022-03-04 15:58:49.002 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 15:58:49.002 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 15:58:49.080 +05:30 [INF] Request finished in 80.793ms 200 text/html;charset=utf-8
+2022-03-04 15:58:49.213 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 15:58:49.299 +05:30 [INF] Request finished in 86.1442ms 200 application/json;charset=utf-8
+2022-03-04 15:59:16.786 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 88
+2022-03-04 15:59:16.811 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 15:59:16.884 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 16:06:30.626 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 16:06:30.679 +05:30 [INF] Hosting environment: Development
+2022-03-04 16:06:30.682 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 16:06:30.683 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 16:06:30.888 +05:30 [INF] Request finished in 212.1152ms 200 text/html;charset=utf-8
+2022-03-04 16:06:31.020 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 16:06:31.173 +05:30 [INF] Request finished in 152.9783ms 200 application/json;charset=utf-8
+2022-03-04 16:06:53.659 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 88
+2022-03-04 16:06:53.678 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 16:06:53.747 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 16:09:27.318 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.Add (Assignment1) in 153565.3941ms
+2022-03-04 16:09:27.334 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 16:09:27.340 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Assignment1.services.ProductRepo.Save(Product pro) in C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1\services\ProductRepo.cs:line 47
+   at Assignment1.Controllers.ProductController.Add(Product product) in C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1\Controllers\ProductController.cs:line 89
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-04 16:09:27.502 +05:30 [INF] Request finished in 153847.0064ms 500 text/plain
+2022-03-04 17:05:04.932 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 17:05:04.960 +05:30 [INF] Hosting environment: Development
+2022-03-04 17:05:04.961 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 17:05:04.963 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 17:05:05.036 +05:30 [INF] Request finished in 76.0127ms 200 text/html;charset=utf-8
+2022-03-04 17:05:05.169 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 17:05:05.257 +05:30 [INF] Request finished in 87.6105ms 200 application/json;charset=utf-8
+2022-03-04 17:05:32.732 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 87
+2022-03-04 17:05:32.755 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:05:32.836 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 17:06:20.395 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 17:06:20.432 +05:30 [INF] Hosting environment: Development
+2022-03-04 17:06:20.431 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 17:06:20.434 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 17:06:20.536 +05:30 [INF] Request finished in 108.2459ms 200 text/html;charset=utf-8
+2022-03-04 17:06:20.680 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 17:06:20.788 +05:30 [INF] Request finished in 108.1899ms 200 application/json;charset=utf-8
+2022-03-04 17:06:45.477 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 90
+2022-03-04 17:06:45.506 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:06:45.579 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 17:10:29.232 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 17:10:29.251 +05:30 [INF] Hosting environment: Development
+2022-03-04 17:10:29.253 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 17:10:29.253 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 17:10:29.345 +05:30 [INF] Request finished in 95.4445ms 200 text/html;charset=utf-8
+2022-03-04 17:10:29.492 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 17:10:29.587 +05:30 [INF] Request finished in 95.6435ms 200 application/json;charset=utf-8
+2022-03-04 17:10:48.953 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 88
+2022-03-04 17:10:48.960 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:10:48.986 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 17:14:11.668 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 17:14:11.724 +05:30 [INF] Hosting environment: Development
+2022-03-04 17:14:11.728 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 17:14:11.727 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 17:14:11.892 +05:30 [INF] Request finished in 173.5105ms 200 text/html;charset=utf-8
+2022-03-04 17:14:12.042 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 17:14:12.276 +05:30 [INF] Request finished in 234.0495ms 200 application/json;charset=utf-8
+2022-03-04 17:14:31.161 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 91
+2022-03-04 17:14:31.168 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:14:31.219 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 17:15:26.077 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 17:15:26.105 +05:30 [INF] Hosting environment: Development
+2022-03-04 17:15:26.106 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 17:15:26.106 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 17:15:26.187 +05:30 [INF] Request finished in 83.7943ms 200 text/html;charset=utf-8
+2022-03-04 17:15:26.314 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 17:15:26.395 +05:30 [INF] Request finished in 81.2849ms 200 application/json;charset=utf-8
+2022-03-04 17:15:47.427 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 91
+2022-03-04 17:15:47.449 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:15:47.520 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 17:16:26.778 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.Add (Assignment1) in 39253.7016ms
+2022-03-04 17:16:26.786 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:16:26.791 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'NITORINFOTECH\ruksana.khanum'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in C:\projects\dapper\Dapper\SqlMapper.cs:line 2827
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 570
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 443
+   at SqlKata.Execution.QueryFactory.Execute(Query query, IDbTransaction transaction, Nullable`1 timeout)
+   at SqlKata.Execution.QueryExtensions.Insert(Query query, Object data, IDbTransaction transaction, Nullable`1 timeout)
+   at Assignment1.services.ProductRepo.Save(Product pro) in C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1\services\ProductRepo.cs:line 51
+   at Assignment1.Controllers.ProductController.Add(Product product) in C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1\Controllers\ProductController.cs:line 89
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:2c4a3178-39ab-42de-97e2-a69a352e8e7b
+Error Number:18456,State:1,Class:14
+2022-03-04 17:16:27.104 +05:30 [INF] Request finished in 39679.3882ms 500 text/plain
+2022-03-04 17:18:46.724 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 17:18:46.756 +05:30 [INF] Hosting environment: Development
+2022-03-04 17:18:46.757 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 17:18:46.757 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 17:18:46.836 +05:30 [INF] Request finished in 82.3432ms 200 text/html;charset=utf-8
+2022-03-04 17:18:46.979 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 17:18:47.064 +05:30 [INF] Request finished in 85.648ms 200 application/json;charset=utf-8
+2022-03-04 17:18:55.859 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 95
+2022-03-04 17:18:55.867 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:18:55.931 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 17:21:44.016 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 17:21:44.041 +05:30 [INF] Hosting environment: Development
+2022-03-04 17:21:44.042 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 17:21:44.042 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 17:21:44.121 +05:30 [INF] Request finished in 81.8239ms 200 text/html;charset=utf-8
+2022-03-04 17:21:44.256 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 17:21:44.340 +05:30 [INF] Request finished in 83.5973ms 200 application/json;charset=utf-8
+2022-03-04 17:21:54.175 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 95
+2022-03-04 17:21:54.182 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:21:54.239 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 17:24:25.565 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 17:24:25.592 +05:30 [INF] Hosting environment: Development
+2022-03-04 17:24:25.593 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 17:24:25.593 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 17:24:25.673 +05:30 [INF] Request finished in 82.848ms 200 text/html;charset=utf-8
+2022-03-04 17:24:25.797 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 17:24:25.877 +05:30 [INF] Request finished in 79.5108ms 200 application/json;charset=utf-8
+2022-03-04 17:24:37.299 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 95
+2022-03-04 17:24:37.326 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:24:37.397 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 17:29:17.140 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 17:29:17.165 +05:30 [INF] Hosting environment: Development
+2022-03-04 17:29:17.166 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 17:29:17.166 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 17:29:17.241 +05:30 [INF] Request finished in 78.2039ms 200 text/html;charset=utf-8
+2022-03-04 17:29:17.356 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 17:29:17.437 +05:30 [INF] Request finished in 78.3655ms 200 application/json;charset=utf-8
+2022-03-04 17:29:37.320 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 95
+2022-03-04 17:29:37.332 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:29:37.390 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 17:36:46.738 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 17:36:46.783 +05:30 [INF] Hosting environment: Development
+2022-03-04 17:36:46.785 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 17:36:46.866 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 17:36:47.098 +05:30 [INF] Request finished in 238.6579ms 200 text/html;charset=utf-8
+2022-03-04 17:36:47.244 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 17:36:47.407 +05:30 [INF] Request finished in 162.8202ms 200 application/json;charset=utf-8
+2022-03-04 17:37:03.829 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 95
+2022-03-04 17:37:03.837 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:37:03.894 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 17:38:09.298 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 17:38:09.318 +05:30 [INF] Hosting environment: Development
+2022-03-04 17:38:09.319 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 17:38:09.319 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 17:38:09.391 +05:30 [INF] Request finished in 74.2125ms 200 text/html;charset=utf-8
+2022-03-04 17:38:09.513 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 17:38:09.586 +05:30 [INF] Request finished in 73.0645ms 200 application/json;charset=utf-8
+2022-03-04 17:38:23.852 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 95
+2022-03-04 17:38:23.861 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:38:23.931 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 17:39:34.711 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 17:39:34.745 +05:30 [INF] Hosting environment: Development
+2022-03-04 17:39:34.747 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 17:39:34.747 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 17:39:34.870 +05:30 [INF] Request finished in 127.886ms 200 text/html;charset=utf-8
+2022-03-04 17:39:35.057 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 17:39:35.145 +05:30 [INF] Request finished in 89.0387ms 200 application/json;charset=utf-8
+2022-03-04 17:39:50.955 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 95
+2022-03-04 17:39:50.961 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:39:51.029 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 17:41:17.718 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 17:41:17.746 +05:30 [INF] Hosting environment: Development
+2022-03-04 17:41:17.747 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 17:41:17.747 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 17:41:17.822 +05:30 [INF] Request finished in 78.1125ms 200 text/html;charset=utf-8
+2022-03-04 17:41:17.941 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 17:41:18.033 +05:30 [INF] Request finished in 91.7861ms 200 application/json;charset=utf-8
+2022-03-04 17:41:34.505 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 94
+2022-03-04 17:41:34.514 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:41:34.558 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 17:41:34.584 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-03-04 17:41:34.593 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.Add (Assignment1) in 30.37ms
+2022-03-04 17:41:34.596 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:41:34.596 +05:30 [INF] Request finished in 91.7576ms 400 application/problem+json; charset=utf-8
+2022-03-04 17:41:36.283 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 94
+2022-03-04 17:41:36.288 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:41:36.290 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 17:41:36.296 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-03-04 17:41:36.298 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.Add (Assignment1) in 6.8421ms
+2022-03-04 17:41:36.298 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:41:36.298 +05:30 [INF] Request finished in 15.7688ms 400 application/problem+json; charset=utf-8
+2022-03-04 17:42:24.389 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 17:42:24.418 +05:30 [INF] Hosting environment: Development
+2022-03-04 17:42:24.421 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 17:42:24.428 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 17:42:24.519 +05:30 [INF] Request finished in 99.9334ms 200 text/html;charset=utf-8
+2022-03-04 17:42:24.645 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 17:42:24.730 +05:30 [INF] Request finished in 85.3578ms 200 application/json;charset=utf-8
+2022-03-04 17:42:46.605 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 92
+2022-03-04 17:42:46.630 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:42:46.690 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 17:42:46.737 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-03-04 17:42:46.758 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.Add (Assignment1) in 53.6962ms
+2022-03-04 17:42:46.763 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:42:46.763 +05:30 [INF] Request finished in 162.1474ms 400 application/problem+json; charset=utf-8
+2022-03-04 17:43:02.093 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 93
+2022-03-04 17:43:02.096 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:43:02.097 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 17:43:43.285 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 17:43:43.306 +05:30 [INF] Hosting environment: Development
+2022-03-04 17:43:43.307 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 17:43:43.308 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 17:43:43.384 +05:30 [INF] Request finished in 78.8042ms 200 text/html;charset=utf-8
+2022-03-04 17:43:43.512 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 17:43:43.586 +05:30 [INF] Request finished in 73.9457ms 200 application/json;charset=utf-8
+2022-03-04 17:43:53.665 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 95
+2022-03-04 17:43:53.672 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:43:53.739 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 17:45:21.019 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 17:45:21.045 +05:30 [INF] Request finished in 18.9224ms 200 text/html;charset=utf-8
+2022-03-04 17:45:21.052 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2022-03-04 17:45:21.113 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.Add (Assignment1) in 87362.5203ms
+2022-03-04 17:45:21.117 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:45:21.126 +05:30 [INF] Request finished in 87461.7706ms 200 application/json; charset=utf-8
+2022-03-04 17:45:21.346 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 17:45:21.355 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/favicon-32x32.png  
+2022-03-04 17:45:21.360 +05:30 [INF] Request finished in 14.3776ms 200 application/json;charset=utf-8
+2022-03-04 17:45:21.411 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-03-04 17:45:21.411 +05:30 [INF] Request finished in 56.3768ms 200 image/png
+2022-03-04 17:45:36.050 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 98
+2022-03-04 17:45:36.054 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:45:36.054 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 17:45:48.296 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2022-03-04 17:45:48.300 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.Add (Assignment1) in 12245.8036ms
+2022-03-04 17:45:48.302 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 17:45:48.304 +05:30 [INF] Request finished in 12254.1182ms 200 application/json; charset=utf-8
+2022-03-04 18:08:50.399 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 18:08:50.428 +05:30 [INF] Hosting environment: Development
+2022-03-04 18:08:50.430 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 18:08:50.430 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 18:08:50.516 +05:30 [INF] Request finished in 89.1203ms 200 text/html;charset=utf-8
+2022-03-04 18:08:50.676 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 18:08:50.765 +05:30 [INF] Request finished in 88.4651ms 200 application/json;charset=utf-8
+2022-03-04 18:09:00.956 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 95
+2022-03-04 18:09:00.977 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 18:09:01.043 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 18:09:43.439 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 18:09:43.464 +05:30 [INF] Hosting environment: Development
+2022-03-04 18:09:43.465 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 18:09:43.465 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 18:09:43.540 +05:30 [INF] Request finished in 79.8375ms 200 text/html;charset=utf-8
+2022-03-04 18:09:43.655 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 18:09:43.736 +05:30 [INF] Request finished in 80.0137ms 200 application/json;charset=utf-8
+2022-03-04 18:10:07.563 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 18:10:07.582 +05:30 [INF] Hosting environment: Development
+2022-03-04 18:10:07.584 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 18:10:07.584 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 18:10:07.672 +05:30 [INF] Request finished in 90.94ms 200 text/html;charset=utf-8
+2022-03-04 18:10:07.816 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 18:10:07.900 +05:30 [INF] Request finished in 84.2525ms 200 application/json;charset=utf-8
+2022-03-04 18:10:19.606 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Product/Add application/json 95
+2022-03-04 18:10:19.615 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 18:10:19.677 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 18:10:32.397 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2022-03-04 18:10:32.410 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.Add (Assignment1) in 12726.7524ms
+2022-03-04 18:10:32.412 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-04 18:10:32.412 +05:30 [INF] Request finished in 12807.08ms 200 application/json; charset=utf-8
+2022-03-04 18:24:03.011 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 18:24:03.044 +05:30 [INF] Hosting environment: Development
+2022-03-04 18:24:03.045 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 18:24:03.046 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 18:24:03.131 +05:30 [INF] Request finished in 88.3142ms 200 text/html;charset=utf-8
+2022-03-04 18:24:03.263 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 18:24:03.348 +05:30 [INF] Request finished in 82.7452ms 200 application/json;charset=utf-8
+2022-03-04 18:27:53.196 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 18:27:53.229 +05:30 [INF] Hosting environment: Development
+2022-03-04 18:27:53.230 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 18:27:53.230 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 18:27:53.307 +05:30 [INF] Request finished in 79.4889ms 200 text/html;charset=utf-8
+2022-03-04 18:27:53.431 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 18:27:53.491 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Product/getbyid" for actions - Assignment1.Controllers.ProductController.GetAllProducts (Assignment1),Assignment1.Controllers.ProductController.GetAProductbyid (Assignment1). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-04 18:27:53.626 +05:30 [INF] Request finished in 194.266ms 500 text/plain
+2022-03-04 18:28:25.017 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 18:28:25.038 +05:30 [INF] Hosting environment: Development
+2022-03-04 18:28:25.040 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 18:28:25.039 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 18:28:25.151 +05:30 [INF] Request finished in 111.9971ms 200 text/html;charset=utf-8
+2022-03-04 18:28:25.292 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 18:28:25.379 +05:30 [INF] Request finished in 86.7179ms 200 application/json;charset=utf-8
+2022-03-04 18:28:42.748 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/api/Product/getallproducts  
+2022-03-04 18:28:42.756 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetAllProducts (Assignment1)'
+2022-03-04 18:28:42.809 +05:30 [INF] Route matched with {action = "GetAllProducts", controller = "Product"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Assignment1.Models.Product] GetAllProducts() on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 18:28:43.824 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Assignment1.Models.Product, Assignment1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-04 18:28:43.857 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetAllProducts (Assignment1) in 1036.5594ms
+2022-03-04 18:28:43.861 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetAllProducts (Assignment1)'
+2022-03-04 18:28:43.862 +05:30 [INF] Request finished in 1114.041ms 200 application/json; charset=utf-8
+2022-03-04 18:28:58.721 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/api/Product/getbyid?id=1  
+2022-03-04 18:28:58.725 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetAProductbyid (Assignment1)'
+2022-03-04 18:28:58.738 +05:30 [INF] Route matched with {action = "GetAProductbyid", controller = "Product"}. Executing controller action with signature Assignment1.Models.Product GetAProductbyid(Int32) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 18:28:58.792 +05:30 [INF] Executing ObjectResult, writing value of type 'Assignment1.Models.Product'.
+2022-03-04 18:28:58.793 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetAProductbyid (Assignment1) in 55.2058ms
+2022-03-04 18:28:58.794 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetAProductbyid (Assignment1)'
+2022-03-04 18:28:58.794 +05:30 [INF] Request finished in 73.02ms 200 application/json; charset=utf-8
+2022-03-04 19:12:04.627 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 19:12:04.651 +05:30 [INF] Hosting environment: Development
+2022-03-04 19:12:04.653 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 19:12:04.653 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 19:12:04.732 +05:30 [INF] Request finished in 82.0835ms 200 text/html;charset=utf-8
+2022-03-04 19:12:04.853 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 19:12:04.933 +05:30 [INF] Request finished in 79.9956ms 200 application/json;charset=utf-8
+2022-03-04 19:12:49.835 +05:30 [INF] Request starting HTTP/2.0 DELETE https://localhost:44365/api/Product/DeleteProduct/1  
+2022-03-04 19:12:49.849 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Delete (Assignment1)'
+2022-03-04 19:12:49.884 +05:30 [INF] Route matched with {action = "Delete", controller = "Product"}. Executing controller action with signature Boolean Delete(Int32) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 19:12:50.501 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2022-03-04 19:12:50.517 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.Delete (Assignment1) in 623.1433ms
+2022-03-04 19:12:50.519 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.Delete (Assignment1)'
+2022-03-04 19:12:50.520 +05:30 [INF] Request finished in 687.3072ms 200 application/json; charset=utf-8
+2022-03-04 19:13:01.200 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/api/Product/getallproducts  
+2022-03-04 19:13:01.204 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetAllProducts (Assignment1)'
+2022-03-04 19:13:01.208 +05:30 [INF] Route matched with {action = "GetAllProducts", controller = "Product"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Assignment1.Models.Product] GetAllProducts() on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 19:13:01.320 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Assignment1.Models.Product, Assignment1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-04 19:13:01.328 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetAllProducts (Assignment1) in 119.5702ms
+2022-03-04 19:13:01.328 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetAllProducts (Assignment1)'
+2022-03-04 19:13:01.329 +05:30 [INF] Request finished in 129.228ms 200 application/json; charset=utf-8
+2022-03-04 19:13:29.052 +05:30 [INF] Request starting HTTP/2.0 PUT https://localhost:44365/api/Product/UpdateProduct application/json 95
+2022-03-04 19:13:29.053 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Update (Assignment1)'
+2022-03-04 19:13:29.057 +05:30 [INF] Route matched with {action = "Update", controller = "Product"}. Executing controller action with signature Boolean Update(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-04 19:13:56.270 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 19:13:56.292 +05:30 [INF] Hosting environment: Development
+2022-03-04 19:13:56.293 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 19:13:56.294 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 19:13:56.366 +05:30 [INF] Request finished in 75.2837ms 200 text/html;charset=utf-8
+2022-03-04 19:13:56.495 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 19:13:56.577 +05:30 [INF] Request finished in 79.3469ms 200 application/json;charset=utf-8
+2022-03-04 19:31:58.776 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 19:31:58.802 +05:30 [INF] Hosting environment: Development
+2022-03-04 19:31:58.803 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 19:31:58.802 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 19:31:58.875 +05:30 [INF] Request finished in 76.0757ms 200 text/html;charset=utf-8
+2022-03-04 19:31:58.995 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 19:31:59.083 +05:30 [INF] Request finished in 87.968ms 200 application/json;charset=utf-8
+2022-03-04 19:33:12.534 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 19:33:12.564 +05:30 [INF] Hosting environment: Development
+2022-03-04 19:33:12.566 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 19:33:12.565 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 19:33:12.639 +05:30 [INF] Request finished in 78.0494ms 200 text/html;charset=utf-8
+2022-03-04 19:33:12.759 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 19:33:12.839 +05:30 [INF] Request finished in 80.0567ms 200 application/json;charset=utf-8
+2022-03-04 19:33:25.131 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Category/AddCategory application/json 49
+2022-03-04 19:33:25.140 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.CategoryController.AddCategory (Assignment1)'
+2022-03-04 19:33:25.153 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.CategoryController.AddCategory (Assignment1)'
+2022-03-04 19:33:25.157 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Assignment1.Controllers.CategoryController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-04 19:33:25.250 +05:30 [INF] Request finished in 118.9883ms 500 text/plain
+2022-03-04 19:40:26.892 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 19:40:26.912 +05:30 [INF] Hosting environment: Development
+2022-03-04 19:40:26.913 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 19:40:26.913 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 19:40:26.994 +05:30 [INF] Request finished in 83.6551ms 200 text/html;charset=utf-8
+2022-03-04 19:40:27.111 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 19:40:27.203 +05:30 [INF] Request finished in 91.9079ms 200 application/json;charset=utf-8
+2022-03-04 19:40:36.945 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Category/create application/json 49
+2022-03-04 19:40:36.954 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.CategoryController.Add (Assignment1)'
+2022-03-04 19:40:36.966 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.CategoryController.Add (Assignment1)'
+2022-03-04 19:40:36.969 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Assignment1.Controllers.CategoryController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-04 19:40:37.055 +05:30 [INF] Request finished in 109.4019ms 500 text/plain
+2022-03-04 19:41:33.058 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 19:41:33.083 +05:30 [INF] Hosting environment: Development
+2022-03-04 19:41:33.084 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-04 19:41:33.084 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/index.html  
+2022-03-04 19:41:33.159 +05:30 [INF] Request finished in 77.7679ms 200 text/html;charset=utf-8
+2022-03-04 19:41:33.268 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/swagger/v1/swagger.json  
+2022-03-04 19:41:33.345 +05:30 [INF] Request finished in 76.3608ms 200 application/json;charset=utf-8
+2022-03-04 19:41:42.401 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Category/create application/json 49
+2022-03-04 19:41:42.406 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.CategoryController.Add (Assignment1)'
+2022-03-04 19:41:42.420 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.CategoryController.Add (Assignment1)'
+2022-03-04 19:41:42.424 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Assignment1.Controllers.CategoryController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-04 19:41:42.514 +05:30 [INF] Request finished in 113.8276ms 500 text/plain
+2022-03-04 19:42:53.706 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44365/api/Category/AddCategory application/json 49
+2022-03-04 19:42:53.710 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.CategoryController.AddCategory (Assignment1)'
+2022-03-04 19:42:53.716 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.CategoryController.AddCategory (Assignment1)'
+2022-03-04 19:42:53.717 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Assignment1.Controllers.CategoryController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-04 19:42:53.723 +05:30 [INF] Request finished in 16.556ms 500 text/plain
+2022-03-04 19:43:22.801 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44365/api/Category/GetAll  
+2022-03-04 19:43:22.802 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.CategoryController.GetAllCategory (Assignment1)'
+2022-03-04 19:43:22.804 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.CategoryController.GetAllCategory (Assignment1)'
+2022-03-04 19:43:22.805 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Assignment1.Controllers.CategoryController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-04 19:43:22.809 +05:30 [INF] Request finished in 9.5439ms 500 text/plain
+2022-03-05 21:11:01.749 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-05 21:11:01.785 +05:30 [INF] Hosting environment: Development
+2022-03-05 21:11:01.787 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-05 21:11:02.049 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2022-03-05 21:11:02.472 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 431.2450ms
+2022-03-05 21:11:02.709 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+2022-03-05 21:11:02.965 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 256.1421ms
+2022-03-07 11:55:00.238 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-07 11:55:00.271 +05:30 [INF] Hosting environment: Development
+2022-03-07 11:55:00.273 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-07 11:55:00.281 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2022-03-07 11:55:00.574 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 299.7952ms
+2022-03-07 11:55:01.068 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+2022-03-07 11:55:01.254 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 184.0598ms
+2022-03-07 11:55:12.796 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/api/Category/Read - -
+2022-03-07 11:55:12.818 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.CategoryController.Get (Assignment1)'
+2022-03-07 11:55:12.845 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.CategoryController.Get (Assignment1)'
+2022-03-07 11:55:12.854 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Assignment1.Controllers.CategoryController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-07 11:55:13.171 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/api/Category/Read - - - 500 - text/plain 374.8043ms
+2022-03-07 12:13:15.073 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-07 12:13:15.098 +05:30 [INF] Hosting environment: Development
+2022-03-07 12:13:15.099 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-07 12:13:15.102 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2022-03-07 12:13:15.247 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 147.6497ms
+2022-03-07 12:13:15.379 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+2022-03-07 12:13:15.470 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 91.3407ms
+2022-03-07 12:13:20.521 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/api/Category/Read - -
+2022-03-07 12:13:20.526 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.CategoryController.Get (Assignment1)'
+2022-03-07 12:13:20.539 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.CategoryController.Get (Assignment1)'
+2022-03-07 12:13:20.542 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Assignment1.Controllers.CategoryController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-07 12:13:20.624 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/api/Category/Read - - - 500 - text/plain 103.2452ms
+2022-03-07 12:14:14.853 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-07 12:14:14.873 +05:30 [INF] Hosting environment: Development
+2022-03-07 12:14:14.874 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-07 12:14:14.877 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2022-03-07 12:14:15.013 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 139.1245ms
+2022-03-07 12:14:15.136 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+2022-03-07 12:14:15.234 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 97.4429ms
+2022-03-07 12:14:25.352 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/api/Category/Read - -
+2022-03-07 12:14:25.363 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.CategoryController.Get (Assignment1)'
+2022-03-07 12:14:25.373 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.CategoryController.Get (Assignment1)'
+2022-03-07 12:14:25.378 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Assignment1.Controllers.CategoryController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-07 12:14:25.471 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/api/Category/Read - - - 500 - text/plain 118.5047ms
+2022-03-07 12:14:53.118 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-07 12:14:53.137 +05:30 [INF] Hosting environment: Development
+2022-03-07 12:14:53.138 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-07 12:14:53.142 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2022-03-07 12:14:53.282 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 143.7292ms
+2022-03-07 12:14:53.406 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+2022-03-07 12:14:53.499 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 92.9017ms
+2022-03-07 12:15:06.316 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/api/Product/Read - -
+2022-03-07 12:15:06.327 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-07 12:15:06.346 +05:30 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Collections.Generic.List`1[Assignment1.Models.Product] GetProduct() on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-07 12:15:06.545 +05:30 [INF] retreiving all products
+2022-03-07 12:15:06.557 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Assignment1.Models.Product, Assignment1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-07 12:15:06.595 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetProduct (Assignment1) in 238.4047ms
+2022-03-07 12:15:06.598 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-07 12:15:06.599 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/api/Product/Read - - - 200 - application/json;+charset=utf-8 282.6908ms
+2022-03-07 12:15:54.855 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-07 12:15:54.874 +05:30 [INF] Hosting environment: Development
+2022-03-07 12:15:54.875 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-07 12:15:54.879 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2022-03-07 12:15:55.025 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 148.8596ms
+2022-03-07 12:15:55.149 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+2022-03-07 12:15:55.240 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 91.2082ms
+2022-03-07 12:16:04.453 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/api/Product/Read - -
+2022-03-07 12:16:04.466 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-07 12:16:04.482 +05:30 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Collections.Generic.List`1[Assignment1.Models.Product] GetProduct() on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-07 12:16:04.546 +05:30 [INF] retreiving all products
+2022-03-07 12:16:04.557 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Assignment1.Models.Product, Assignment1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-07 12:16:04.583 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetProduct (Assignment1) in 93.0546ms
+2022-03-07 12:16:04.585 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-07 12:16:04.586 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/api/Product/Read - - - 200 - application/json;+charset=utf-8 132.2020ms
+2022-03-07 12:21:46.514 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-07 12:21:46.535 +05:30 [INF] Hosting environment: Development
+2022-03-07 12:21:46.536 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-07 12:21:46.539 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2022-03-07 12:21:46.699 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 161.4692ms
+2022-03-07 12:21:46.815 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+2022-03-07 12:21:46.908 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 92.2757ms
+2022-03-07 12:21:54.335 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/api/Product/Read - -
+2022-03-07 12:21:54.352 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-07 12:21:54.370 +05:30 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Collections.Generic.List`1[Assignment1.Models.Product] GetProduct() on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-07 12:21:54.434 +05:30 [INF] retreiving all products
+2022-03-07 12:21:54.444 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Assignment1.Models.Product, Assignment1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-07 12:21:54.472 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetProduct (Assignment1) in 93.7797ms
+2022-03-07 12:21:54.475 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-07 12:21:54.475 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/api/Product/Read - - - 200 - application/json;+charset=utf-8 140.2410ms
+2022-03-08 12:04:16.699 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-08 12:04:16.770 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2022-03-08 12:04:16.829 +05:30 [INF] Hosting environment: Development
+2022-03-08 12:04:16.829 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-08 12:04:17.280 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 518.5211ms
+2022-03-08 12:04:17.852 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+2022-03-08 12:04:18.070 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 217.6936ms
+2022-03-08 12:04:42.684 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/api/Product/Read - -
+2022-03-08 12:04:42.772 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-08 12:04:42.810 +05:30 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Collections.Generic.List`1[Assignment1.Models.Product] GetProduct() on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-08 12:04:43.144 +05:30 [INF] retreiving all products
+2022-03-08 12:04:43.158 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Assignment1.Models.Product, Assignment1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-08 12:04:43.234 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetProduct (Assignment1) in 410.966ms
+2022-03-08 12:04:43.239 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-08 12:04:43.240 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/api/Product/Read - - - 200 - application/json;+charset=utf-8 556.0171ms
+2022-03-08 12:05:32.080 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-08 12:05:32.113 +05:30 [INF] Hosting environment: Development
+2022-03-08 12:05:32.115 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-08 12:05:32.120 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2022-03-08 12:05:32.304 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 188.1337ms
+2022-03-08 12:05:32.477 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+2022-03-08 12:05:32.625 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 147.3670ms
+2022-03-08 12:05:41.383 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/api/Product/Read - -
+2022-03-08 12:05:41.393 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-08 12:05:41.428 +05:30 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Collections.Generic.List`1[Assignment1.Models.Product] GetProduct() on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-08 12:05:41.549 +05:30 [INF] retreiving all products
+2022-03-08 12:05:41.565 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Assignment1.Models.Product, Assignment1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-08 12:05:41.634 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetProduct (Assignment1) in 188.8385ms
+2022-03-08 12:05:41.639 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-08 12:05:41.642 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/api/Product/Read - - - 200 - application/json;+charset=utf-8 258.9458ms
+2022-03-08 12:06:46.588 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-08 12:06:46.617 +05:30 [INF] Hosting environment: Development
+2022-03-08 12:06:46.620 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-08 12:06:46.626 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2022-03-08 12:06:46.814 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 194.3338ms
+2022-03-08 12:06:46.970 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+2022-03-08 12:06:47.091 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 121.3370ms
+2022-03-08 12:07:19.115 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/api/Product/Read - -
+2022-03-08 12:07:19.148 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-08 12:07:19.203 +05:30 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Collections.Generic.List`1[Assignment1.Models.Product] GetProduct() on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-08 12:07:19.307 +05:30 [INF] retreiving all products
+2022-03-08 12:07:19.321 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Assignment1.Models.Product, Assignment1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-08 12:07:19.362 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetProduct (Assignment1) in 146.3706ms
+2022-03-08 12:07:19.366 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-08 12:07:19.367 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/api/Product/Read - - - 200 - application/json;+charset=utf-8 252.7191ms
+2022-03-08 13:09:05.941 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-08 13:09:05.970 +05:30 [INF] Hosting environment: Development
+2022-03-08 13:09:05.971 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-08 13:09:05.975 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2022-03-08 13:09:06.128 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 156.4537ms
+2022-03-08 13:09:06.261 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+2022-03-08 13:09:06.365 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 103.3138ms
+2022-03-08 13:09:15.096 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/api/Product/Read - -
+2022-03-08 13:09:15.106 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-08 13:09:15.128 +05:30 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Collections.Generic.List`1[Assignment1.Models.Product] GetProduct() on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-08 13:09:15.177 +05:30 [INF] retreiving all products
+2022-03-08 13:09:15.183 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Assignment1.Models.Product, Assignment1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-08 13:09:15.201 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetProduct (Assignment1) in 67.8823ms
+2022-03-08 13:09:15.203 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-08 13:09:15.204 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/api/Product/Read - - - 200 - application/json;+charset=utf-8 108.3527ms
+2022-03-08 13:10:57.570 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-08 13:10:57.592 +05:30 [INF] Hosting environment: Development
+2022-03-08 13:10:57.594 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-08 13:10:57.597 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2022-03-08 13:10:57.759 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 164.9285ms
+2022-03-08 13:10:57.890 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+2022-03-08 13:10:57.999 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 109.1066ms
+2022-03-08 13:11:12.265 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/api/Product/Read - -
+2022-03-08 13:11:12.271 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-08 13:11:12.289 +05:30 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Collections.Generic.List`1[Assignment1.Models.Product] GetProduct() on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-08 13:11:12.340 +05:30 [INF] retreiving all products
+2022-03-08 13:11:12.347 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Assignment1.Models.Product, Assignment1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-08 13:11:12.364 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetProduct (Assignment1) in 68.3006ms
+2022-03-08 13:11:12.366 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-08 13:11:12.366 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/api/Product/Read - - - 200 - application/json;+charset=utf-8 101.1568ms
+2022-03-08 13:11:24.936 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44365/api/Product/create application/json 121
+2022-03-08 13:11:24.939 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.AddProduct (Assignment1)'
+2022-03-08 13:11:24.995 +05:30 [INF] Route matched with {action = "AddProduct", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProduct(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-08 13:11:30.461 +05:30 [INF] Product is getting added
+2022-03-08 13:11:32.841 +05:30 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2022-03-08 13:11:32.841 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.AddProduct (Assignment1) in 7846.1567ms
+2022-03-08 13:11:32.842 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.AddProduct (Assignment1)'
+2022-03-08 13:11:32.843 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44365/api/Product/create application/json 121 - 200 - - 7906.5922ms
+2022-03-08 13:15:50.978 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-08 13:15:51.002 +05:30 [INF] Hosting environment: Development
+2022-03-08 13:15:51.003 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-08 13:15:51.005 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2022-03-08 13:15:51.159 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 157.1131ms
+2022-03-08 13:15:51.287 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+2022-03-08 13:15:51.400 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 112.9083ms
+2022-03-08 13:18:09.056 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/api/Home - -
+2022-03-08 13:18:09.092 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.Home.credentials (Assignment1)'
+2022-03-08 13:18:09.161 +05:30 [INF] Route matched with {action = "credentials", controller = "Home"}. Executing controller action with signature Assignment1.Models.AppSettings credentials(Assignment1.Models.AppSettings) on controller Assignment1.Controllers.Home (Assignment1).
+2022-03-08 13:18:09.206 +05:30 [INF] Executing ObjectResult, writing value of type 'Assignment1.Models.AppSettings'.
+2022-03-08 13:18:09.222 +05:30 [INF] Executed action Assignment1.Controllers.Home.credentials (Assignment1) in 52.5375ms
+2022-03-08 13:18:09.224 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.Home.credentials (Assignment1)'
+2022-03-08 13:18:09.224 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/api/Home - - - 200 - application/json;+charset=utf-8 169.3887ms
+2022-03-08 13:18:21.572 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/api/Product/Read - -
+2022-03-08 13:18:21.574 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-08 13:18:21.576 +05:30 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Collections.Generic.List`1[Assignment1.Models.Product] GetProduct() on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-08 13:18:21.623 +05:30 [INF] retreiving all products
+2022-03-08 13:18:21.625 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Assignment1.Models.Product, Assignment1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-08 13:18:21.631 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetProduct (Assignment1) in 54.5836ms
+2022-03-08 13:18:21.631 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-08 13:18:21.631 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/api/Product/Read - - - 200 - application/json;+charset=utf-8 59.3654ms
+2022-03-08 13:19:33.974 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:44365/api/Product/delete?id=3 - -
+2022-03-08 13:19:33.979 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.DeleteProduct (Assignment1)'
+2022-03-08 13:19:33.980 +05:30 [INF] Route matched with {action = "DeleteProduct", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteProduct(Int32) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-08 13:19:33.988 +05:30 [INF] deleting product
+2022-03-08 13:19:33.991 +05:30 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2022-03-08 13:19:33.992 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.DeleteProduct (Assignment1) in 11.5284ms
+2022-03-08 13:19:33.992 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.DeleteProduct (Assignment1)'
+2022-03-08 13:19:33.994 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:44365/api/Product/delete?id=3 - - - 200 - - 19.5749ms
+2022-03-08 13:19:45.342 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/api/Product/Read - -
+2022-03-08 13:19:45.342 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-08 13:19:45.342 +05:30 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Collections.Generic.List`1[Assignment1.Models.Product] GetProduct() on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-08 13:19:45.343 +05:30 [INF] retreiving all products
+2022-03-08 13:19:45.344 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Assignment1.Models.Product, Assignment1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-08 13:19:45.346 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetProduct (Assignment1) in 3.5751ms
+2022-03-08 13:19:45.346 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetProduct (Assignment1)'
+2022-03-08 13:19:45.348 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/api/Product/Read - - - 200 - application/json;+charset=utf-8 6.1652ms
+2022-03-08 13:20:52.140 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44365/api/Product/Add application/json 95
+2022-03-08 13:20:52.143 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-08 13:20:52.144 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Boolean Add(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-08 13:21:02.848 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2022-03-08 13:21:02.849 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.Add (Assignment1) in 10704.5769ms
+2022-03-08 13:21:02.850 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.Add (Assignment1)'
+2022-03-08 13:21:02.854 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44365/api/Product/Add application/json 95 - 200 - application/json;+charset=utf-8 10713.8134ms
+2022-03-08 13:21:14.137 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/api/Product/getallproducts - -
+2022-03-08 13:21:14.137 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetAllProducts (Assignment1)'
+2022-03-08 13:21:14.138 +05:30 [INF] Route matched with {action = "GetAllProducts", controller = "Product"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Assignment1.Models.Product] GetAllProducts() on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-08 13:21:32.207 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetAllProducts (Assignment1) in 18068.5112ms
+2022-03-08 13:21:32.346 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetAllProducts (Assignment1)'
+2022-03-08 13:21:32.352 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidCastException: Unable to cast object of type 'SqlKata.Query' to type 'System.Collections.Generic.IEnumerable`1[Assignment1.Models.Product]'.
+   at Assignment1.services.ProductRepo.get() in C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1\services\ProductRepo.cs:line 44
+   at Assignment1.Controllers.ProductController.GetAllProducts() in C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1\Controllers\ProductController.cs:line 97
+   at lambda_method11(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-08 13:21:32.873 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/api/Product/getallproducts - - - 500 - text/plain 18736.2136ms
+2022-03-08 13:22:06.162 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/api/Product/getbyid?id=2 - -
+2022-03-08 13:22:06.163 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetAProductbyid (Assignment1)'
+2022-03-08 13:22:06.168 +05:30 [INF] Route matched with {action = "GetAProductbyid", controller = "Product"}. Executing controller action with signature Assignment1.Models.Product GetAProductbyid(Int32) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-08 13:22:06.289 +05:30 [INF] Executing ObjectResult, writing value of type 'Assignment1.Models.Product'.
+2022-03-08 13:22:06.290 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetAProductbyid (Assignment1) in 121.5677ms
+2022-03-08 13:22:06.291 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetAProductbyid (Assignment1)'
+2022-03-08 13:22:06.294 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/api/Product/getbyid?id=2 - - - 200 - application/json;+charset=utf-8 131.6659ms
+2022-03-08 13:22:38.872 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:44365/api/Product/UpdateProduct application/json 94
+2022-03-08 13:22:38.873 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.Update (Assignment1)'
+2022-03-08 13:22:38.874 +05:30 [INF] Route matched with {action = "Update", controller = "Product"}. Executing controller action with signature Boolean Update(Assignment1.Models.Product) on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-08 13:22:38.957 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2022-03-08 13:22:38.958 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.Update (Assignment1) in 83.3022ms
+2022-03-08 13:22:38.958 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.Update (Assignment1)'
+2022-03-08 13:22:38.959 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:44365/api/Product/UpdateProduct application/json 94 - 200 - application/json;+charset=utf-8 86.0351ms
+2022-03-08 13:23:01.796 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/api/Category/GetAll - -
+2022-03-08 13:23:01.800 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.CategoryController.GetAllCategory (Assignment1)'
+2022-03-08 13:23:01.832 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.CategoryController.GetAllCategory (Assignment1)'
+2022-03-08 13:23:01.833 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Assignment1.Controllers.CategoryController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-08 13:23:01.841 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/api/Category/GetAll - - - 500 - text/plain 45.1588ms
+2022-03-08 13:25:29.296 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-08 13:25:29.343 +05:30 [INF] Hosting environment: Development
+2022-03-08 13:25:29.345 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-08 13:25:29.350 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2022-03-08 13:25:29.686 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 341.7254ms
+2022-03-08 13:25:29.897 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+2022-03-08 13:25:30.095 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 194.6459ms
+2022-03-08 13:25:43.629 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/api/Category/GetAll - -
+2022-03-08 13:25:43.643 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.CategoryController.GetAllCategory (Assignment1)'
+2022-03-08 13:25:43.667 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.CategoryController.GetAllCategory (Assignment1)'
+2022-03-08 13:25:43.675 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Assignment1.Controllers.CategoryController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-08 13:25:43.817 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/api/Category/GetAll - - - 500 - text/plain 187.9341ms
+2022-03-08 14:34:23.223 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-08 14:34:23.267 +05:30 [INF] Hosting environment: Development
+2022-03-08 14:34:23.270 +05:30 [INF] Content root path: C:\Users\ruksana.khanum\Desktop\Assignment1\Assignment1
+2022-03-08 14:34:23.666 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2022-03-08 14:34:24.139 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 479.5369ms
+2022-03-08 14:34:24.279 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+2022-03-08 14:34:24.458 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 179.0584ms
+2022-03-08 14:34:48.147 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44365/api/Category/AddCategory application/json 49
+2022-03-08 14:34:48.185 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.CategoryController.AddCategory (Assignment1)'
+2022-03-08 14:34:48.215 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.CategoryController.AddCategory (Assignment1)'
+2022-03-08 14:34:48.223 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Assignment1.Controllers.CategoryController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-08 14:34:49.095 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44365/api/Category/AddCategory application/json 49 - 500 - text/plain 986.3154ms
+2022-03-08 14:35:18.636 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44365/api/Product/getallproducts - -
+2022-03-08 14:35:18.644 +05:30 [INF] Executing endpoint 'Assignment1.Controllers.ProductController.GetAllProducts (Assignment1)'
+2022-03-08 14:35:18.675 +05:30 [INF] Route matched with {action = "GetAllProducts", controller = "Product"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Assignment1.Models.Product] GetAllProducts() on controller Assignment1.Controllers.ProductController (Assignment1).
+2022-03-08 14:35:22.533 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Assignment1.Models.Product, Assignment1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-08 14:35:22.571 +05:30 [INF] Executed action Assignment1.Controllers.ProductController.GetAllProducts (Assignment1) in 3884.4992ms
+2022-03-08 14:35:22.575 +05:30 [INF] Executed endpoint 'Assignment1.Controllers.ProductController.GetAllProducts (Assignment1)'
+2022-03-08 14:35:22.576 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44365/api/Product/getallproducts - - - 200 - application/json;+charset=utf-8 3940.0033ms
